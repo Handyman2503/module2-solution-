@@ -21,24 +21,27 @@
   #box1:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
-}
+ }
+} 
 
 @media (hover: hover) and (pointer: fine) {
   #box2:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
-}
+ }
+} 
 
 @media (hover: hover) and (pointer: fine) {
   #box3:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
-}
+ }
+} 
 
 div.box {
   margin: 10px;
   border: 1px solid black;
-}
+ }
 
 h3.chicken, h3.beef, h3.sushi {
   text-align: center;
@@ -50,7 +53,7 @@ h3.chicken, h3.beef, h3.sushi {
   font-size: 18px;
   color: #000;
   width: 30%
-}
+ }
 
 h3.chicken {
   background: pink;
