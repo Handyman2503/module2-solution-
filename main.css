@@ -17,21 +17,21 @@
   position: relative;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media (max-width: 991px) (hover: hover) and (pointer: fine) {
   #box1:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
  }
 } 
 
-@media (hover: hover) and (pointer: fine) {
+@media (max-width: 991px) (hover: hover) and (pointer: fine) {
   #box2:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
  }
 } 
 
-@media (hover: hover) and (pointer: fine) {
+@media (max-width: 991px) (hover: hover) and (pointer: fine) {
   #box3:hover {
   transform: perspective(1000px) translateZ(50px);
   transition: 0.3s;
