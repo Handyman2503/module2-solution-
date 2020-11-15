@@ -1,1 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
+
+.menu h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.menu .box {
+  padding: 0px;
+  background: #edebeb;
+  text-align: center;
+  position: relative;
+}
+
+#box1:hover {
+  transform: perspective(1000px) translateZ(50px);
+  transition: 0.3s;
+}
+#box2:hover {
+  transform: perspective(1000px) translateZ(50px);
+  transition: 0.3s;
+}
+#box3:hover {
+  transform: perspective(1000px) translateZ(50px);
+  transition: 0.3s;
+}
+
+div.box {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+h3.chicken, h3.beef, h3.sushi {
+  text-align: center;
+  float: right;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 7px;
+  margin-top: 0px;
+  font-size: 18px;
+  color: #000;
+  width: 30%
+}
+
+h3.chicken {
+  background: pink;
+  border: 1px solid black;
+}
+
+h3.beef {
+  background: #d13030;
+  border: 1px solid black;
+}
+
+h3.sushi {
+  background: #e3e32b;
+border: 1px solid black;
+}
+
+p.text1 {
+  position: relative;
+  margin: 70px 10px 30px 10px;
+  font-size: 16px;
+}
+
+#sources {
+
+  top: 20vh;
+  font-size: 18px;
+  text-align: left;
+  opacity: 0;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#sources:hover {
+  opacity: 1;
+  transition: 1.5s;
+}
+p.sources {
+  font-size: 25px;
+
+}
+.pink {
+  color: pink;
+}
+.red {
+  color: #d13030;
+}
+.yellow {
+  color: #e3e32b;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Phone view */
+@media (max-width: 576px)  {
+
+  .col-xs-12 {
+  	float: left;
+    width: 100%;
+  }
+}
