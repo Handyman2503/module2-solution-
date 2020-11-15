@@ -1,139 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-}
-
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid green;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution for Module 2</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<h1>Responsive Layout</h1>
+    <!-- menu Section -->
+    <section class="menu">
 
-<div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
-</div>
+      <h1>Our Menu</h1>
 
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12" id="box1">
+            <div class="box">
+              <h3 class="chicken">Chicken</h3>
+                <p class="text1">A chicken (Gallus gallus domesticus) is a
+                   kind of domesticated bird. It is raised in many places
+                   for its meat and eggs. They are usually kept by humans
+                   as livestock. Most breeds of chickens can fly for a short
+                   distance. Some sleep in trees if there are trees around.</p>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-xs-12" id="box2">
+                <div class="box">
+                  <h3 class="beef">Beef</h3>
+                    <p class="text1">Beef cattle are bred and raised specifically
+                       to provide meat or beef. Steers are the best type for this
+                       purpose because they can be kept in herds without fighting
+                       each other. Heifers are also often used for beef, especially
+                       those that are not suitable to be used in a breeding herd.</p>
+                </div>
+              </div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-xs-12" id="box3">
+                    <div class="box">
+                      <h3 class="sushi">Sushi</h3>
+                        <p class="text1">Sushi (寿司) is a traditional food from Japan.
+                           It is a popular dish in other countries as well, such as the
+                           US, Canada, and the UK, along with many other countries.
+                           The word "Sushi" comes from the Japanese word "Su" (酢)
+                           meaning vinegar, and "Meshi" (飯), meaning rice. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-xs-12">
+                    <div id="sources">
+                      <p class="sources">Sources:</p>
+                        <p class="pink">https://simple.wikipedia.org/wiki/Chicken</p>
+                        <p class="red">https://simple.wikipedia.org/wiki/Cattle#Beef_cattle</p>
+                      <p class="yellow">https://simple.wikipedia.org/wiki/Sushi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 </body>
 </html>
+<!-- @Miika Liljendahl 2020 *Finland* -->
+
 
